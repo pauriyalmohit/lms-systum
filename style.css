@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+      
+ }
+ 
+.navbar {
+    height: 60px;
+    background-color:rgb(14, 232, 244);
+    color:rgb(11, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+ .nav-logo{
+    height: 38px;
+    width: 100px;
+    background-color:rgb(14,232,244);
+ }
+ 
+.logo {
+    background-image:  url("logo-udemy.svg");
+    background-size: cover;
+    height: 38px;
+    width: 100px;
+
+}
+.border {
+    border: 2px solid transparent;
+
+}
+
+.border:hover {
+    border:1.5px solid rgb(14, 232, 244)
+}
+.nav-cat{
+    color: rgb(60, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: small;
+}
+.border {
+    border: 2px solid transparent;
+
+}
+
+.border:hover {
+    border:1.5px solid rgb(76, 72, 72)
+}
+/**box2**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(14, 232, 244);
+    width: 620px;
+    height: 40px;
+    border-radius: 40px;
+    
+}
+.Search-select{
+    background-color:rgb(14, 232, 244);
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 4px;
+
+}
+.Search-input{
+    width: 50%;
+    font-size: 1rem;
+     
+}
+
+.nav-search i{
+    font-size:25px ;
+    color:rgb(4, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-left: 35%;
+    border-color: #464946;
+
+}
+.nav-search ::placeholder {
+      box-sizing: 10px;
+      padding-right: 50%;
+    
+}
+
+.nav-p{
+    height: auto;
+    color: #343636;
+    align-items: center;
+    display: block;
+    border: rgb(121, 199, 206);
+    justify-content: space-evenly;
+    font-size: small;
+}
+.nav-bus{
+    color: #393b3b;
+    display: flex;
+    align-items: center;
+    border: white;
+    justify-content:space-evenly;
+    font-size: small;
+    padding: auto;
+
+}
+.nav-tech{
+    color: #2e3030;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: small;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #7f8181;
+
+}
+.nav-log{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(4, 4, 4);
+    border-color: black;
+    color: white;
+}
+.nav-sign{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(3, 3, 3);
+    border-color: black;
+    color: white;
+}
+.nav-world{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.nav-hero{
+    background-image: url("hero.png");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+     
+}
+ .nav-hero h2{
+    font-size:40px;
+ }
+ .nav-hero p1{
+    font-size:25px;
+ }
+ .nav-hero p2{
+    color: rgb(238, 183, 4);
+}
+ .nav-hero u{
+    color: rgb(80, 17, 218);
+ }
+  
+ .nav-hero p3 u{
+    color: rgb(94, 18, 200);
+}
+.nav-hero p4{
+    justify-content: space-evenly;
+}
+.nav-img{
+     margin-left: 5%;
+}
+p{
+    margin-left: 6%;
+    color: #550ccb;
+     font-size: 25px;
+     padding-bottom: 5%;
+}
+.nav-t{
+    height: 80%;
+    width: 70%;
+    margin: 5%;
+    background-color: white;
+    border: #050c0c;
+    box-shadow: #585b5b;
+    
+}
+.nav-t th{
+    font-size: 25px;
+    
+}
+.nav-t td{
+    font-size: 20px;
+    
+}
+h2{
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+p1{
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+ 
+.nav-p2 {
+    margin-left: 5%;
+    padding-top: 3%;
+}
+.nav-p2 u{
+    padding-bottom: 10%;
+}
+ .nav-in{
+    font-size: 30px;
+    margin-left: 8%;
+    border-color: #323034;
+    
+     
+ }
+.nav-study-section p3{
+    padding: 4%;
+    padding-right: 65%;
+     font-size: 200%;
+     margin-left: 5%;
+    
+}
+.nav-study1 p4{
+     padding: 5%;
+     justify-content: right;
+     display: flex;
+     padding-right: 60%;
+     font-size: large;
+     
+     
+}
+.p h2{
+    font-size: x-large;
+}
+
+.box{
+    height: 150px;
+    width: 67%;
+    background-color: rgb(172, 219, 242);
+    margin-top: 5px;
+    display: flex;
+    margin-left: 5%;
+ }
+ 
+.box-content{
+    margin-left: 0%;
+    margin-right: 10px;
+    
+}
+.box-content p{
+    color: #007185;
+}
+body{
+    background: #e3edf7;
+}
+.accordion{
+    margin: 10px ;
+    width: 1000px;
+}
+.accordion li{
+     list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.accordion li label{
+    display: flex;
+   padding-right: 90%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+label ::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+} 
+
+input[type="radio"]{
+   display: none;
+}
+.accordion .content{
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label+.content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label ::before{
+    content: '-';
+}
