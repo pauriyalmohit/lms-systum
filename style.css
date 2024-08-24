@@ -209,13 +209,14 @@ p1{
 .nav-p2 {
     margin-left: 5%;
     padding-top: 3%;
+    margin-top: 2%;
 }
 .nav-p2 u{
     padding-bottom: 10%;
 }
  .nav-in{
     font-size: 30px;
-    margin-left: 8%;
+    margin-left: 5%;
     border-color: #323034;
     
      
@@ -257,6 +258,21 @@ p1{
 .box-content p{
     color: #007185;
 }
+.nav-course{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.nav-info{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.nav-info button{
+    margin-left: 35%;
+    font-size: 15px;
+    color: #550ccb;
+}
 body{
     background: #e3edf7;
 }
@@ -294,7 +310,7 @@ input[type="radio"]{
     color: #555;
     padding: 0 10px;
     line-height: 26px;
-    max-height: 0;
+    max-height: 0%;
     overflow: hidden;
     transition: max-height 0.5s, padding 0.5s;
 }
@@ -305,4 +321,50 @@ input[type="radio"]{
 }
 .accordion input[type="radio"]:checked + label ::before{
     content: '-';
+}
+.nav-zero i{
+    color:rgb(4, 5, 5);
+    margin-top: 5%;
+    margin-left:8%;
+    size: 30px;
+}
+.nav-zero u{
+    margin-left: 5%;
+    font-size: 20px;
+    color: #550ccb;
+}
+.nav-zero u2{
+    margin-left: 50%;
+    color: #550ccb;
+}
+.nav-first i{
+    color:rgb(4, 5, 5);
+    margin-top: 5%;
+    margin-left:8%;
+    size: 30px;
+}
+.nav-first u{
+    margin-left: 5%;
+    font-size: 20px;
+    color: #550ccb;
+}
+.nav-first u2{
+    margin-left: 35%;
+    color: #550ccb;
+}
+.nav-second i{
+    color:rgb(4, 5, 5);
+    margin-top: 5%;
+    margin-left:8%;
+    size: 30px;
+}
+.nav-second u{
+    margin-left: 5%;
+    font-size: 20px;
+    color: #060606;
+}
+.nav-second u2{
+    margin-left: 25%;
+    color: #fcfbfb;
+    
 }
